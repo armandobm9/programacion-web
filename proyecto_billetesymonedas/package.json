@@ -1,0 +1,26 @@
+{
+  "name": "pw",
+  "version": "1.0.0",
+  "description": "prueba proyecto ",
+  "main": "main.js",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "asar": "^0.14.5",
+    "electron": "^3.0.10",
+    "electron-require": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "javier velasco",
+  "license": "MIT"
+}

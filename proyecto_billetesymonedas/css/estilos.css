@@ -1,0 +1,162 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1078px;  
+    background: rgb(234, 235, 236);
+}
+
+header{ 
+    background: rgb(226, 65, 65);
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px rgb(156, 155, 155);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(204, 200, 200);   
+    height: 100px;
+    
+    
+}
+header .img {
+
+    width:  40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+ #sec01 img{
+    text-align: center;
+    width:  30%;
+    height: 30%;
+    margin-left: 250px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#home{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30%;
+}
+#home:hover {
+    filter: blur(0.8px);
+}
+
+#konami {
+       position: relative;
+       top:50px;
+       right: -300px;
+}
+
+#boton {
+    position: relative;
+    top: -10px;
+    left: 120px; 
+    color: white !important;
+    font-size: 16px;
+    padding: 5px 15px;
+    background: rgba(0,0,0,0);
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: all 1s ease;
+   
+}
+#boton:hover {
+    background: white;
+    color: rgb(226, 65, 65) !important;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#favorito{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 200px;   
+    top:-40px; 
+}
+
+#favorito:visited {
+    filter: hue-rotate(60deg) brightness(500%);
+}
+
+#favorito:hover {
+    filter: hue-rotate(60deg) brightness(500%);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#art01 article{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#vitrina{
+    background:rgba(162, 220, 253, 0.384);
+    border: 1px solid rgba(162, 220, 253, 0.384);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px gray;   
+    width: 45%;
+    padding: 10px;
+    display: inline-block;
+}
+
+#vitrina:hover{
+    border: 1px solid rgb(111, 190, 226);
+    box-shadow: 1px 1px 1px 3px  rgb(111, 190, 226);
+
+}
+
+#img{
+    width:45%;
+    border-radius: 2px;
+}
+.Fotobill{
+    width: 200px;
+    height: 100px;
+}
+
+article #desc{
+   width:45%;
+   position: relative;
+   top: -35px;
+   left: 50px;
+  
+}
+
+#txtNombre{
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    font-size: 1.5em;
+}
+
+.btnMostrador{    
+    background: rgb(211, 61, 61);
+    border-radius: 5px;
+    border: rgb(211, 61, 61);
+    width: 100px;
+    height: 30px;
+    color: rgb(231, 231, 231);
+    position: relative;
+    bottom: -15px;
+
+   
+}
+
+.btnMostrador:hover{
+    box-shadow: 1px 1px 5px 3px red;
+}

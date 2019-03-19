@@ -1,0 +1,136 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1078px;  
+    background: rgb(234, 235, 236);
+}
+
+header{ 
+    background: rgb(226, 65, 65);
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px rgb(156, 155, 155);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(204, 200, 200);   
+    height: 100px;
+    
+    
+}
+header .img {
+   width:  40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+
+#home{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30%;
+}
+#home:hover {
+    filter: blur(0.8px);
+}
+
+#boton {
+     position: relative;
+    top: -10px;
+    left: 120px; 
+    color: white !important;
+    font-size: 16px;
+    padding: 5px 15px;
+    background: rgba(0,0,0,0);
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: all 1s ease;
+   
+}
+#boton:hover {
+    background: white;
+    color: rgb(226, 65, 65) !important;
+}
+
+#favorito{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 200px;   
+    top:-40px;  
+}
+
+#favorito:visited {
+    filter: hue-rotate(60deg) brightness(500%);
+}
+
+#favorito:hover {
+    filter: hue-rotate(60deg) brightness(500%);
+}
+
+/*Fin del encabezado*/
+
+/*Contenido de la página*/
+
+#allFavorites article{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cont01{
+    background: rgb(146, 137, 187);
+    border: 1px solid rgb(146, 137, 187);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 45%;
+}
+
+article #art02{
+	width: 45%;
+}
+#btnMostrador{
+	position: relative; 
+	top: 5px;
+    background: rgb(211, 61, 61);
+    border-radius: 5px;
+    border: rgb(211, 61, 61);
+    margin-left: 20px;
+    padding: 7px;
+}
+#btnMostrador:hover{
+    box-shadow: 1px 1px 5px 3px red;
+    width: 70px;
+}
+
+#quitar{
+	position: relative; 
+	top: 5px;
+    background: rgb(211, 61, 61);
+    border-radius: 5px;
+    border: rgb(211, 61, 61);
+    margin-left: 20px;
+    padding: 7px;
+}
+#quitar:hover{
+    box-shadow: 1px 1px 5px 3px red;
+    width: 70px;
+}
+
+#fotoBill{
+	width: 45%;
+	border-radius: 2px;
+}
+.imgFoto{
+    width: 200px;
+    height: 100px;
+}
+
+.textNombre{
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    font-size: 1.5em;
+}
